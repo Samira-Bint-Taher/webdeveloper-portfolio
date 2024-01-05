@@ -166,10 +166,18 @@ box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 .ref-container{
     display: flex;
     justify-content: space-between;
+    margin:30px 30px;
+    gap: 24px;
+    vertical-align:middle ;
 }
 ref-column-title{
     color: #474747;
 font-family: Open Sans;
 font-size: 30px;
 font-weight: 700;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
