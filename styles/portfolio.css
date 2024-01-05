@@ -3,6 +3,22 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-descrption{
+    color:#757575;
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+
 /* nav related styles */
 nav {
     /* flex korle duita block ek line a chole ashe */
@@ -51,17 +67,50 @@ nav a {
 /* header related styles */
 .header {
     background-color: #FFF8F3;
-    ;
+    background-image: url('../images/header_bg.png');
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-.banner .profile-pic{
-    width: 200px;
-    border-radius: 50px;
+.banner .profile-pic {
+    width: 250px;
 }
-.banner-content
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    margin-bottom: 20px;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+/* main section styles */
+
+/* about section styles */
+.about {
+    padding: 130px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    margin: 130px 0;
+}
